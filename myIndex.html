@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Services</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="hackathonCSS.css">
+	<link rel="stylesheet" href="sectionCSS.css">
+</head>
+
+<body>
+	<!-- page header: logo and account -->
+	<div class="headerbar">
+		<div class="headerlogo">
+			<img id="logo" title="HackLife logo" src="images/lotuslogo.png" alt="HackLife logo" onclick=>
+		</div>
+		<div class="headermsg">
+			<span id="custname">Welcome <b>Janet</b></span>
+			<img src="images/accounticonsm.png" id="accounticon">
+		</div>
+	</div>
+	
+	<!-- page menu -->
+	<nav class="menu">
+		<a href="myIndex.html" alt="Home">My Services</a>
+		<a href="#" alt="Documents">Policy Documents</a>
+		<a href="myDocs.html" alt="Claims">Process Center</a>
+	</nav>
+	<div id="menuhr">&nbsp;</div>
+	
+	<!-- page content -->
+	<div class="pagetitle">My Services Dashboard</div>
+
+	<div class="contentdash">
+		<!-- side menu -->
+		<div class="contentmenu">
+			<div class="contentmenuhdr">
+				Menu
+			</div>
+			<button type="button" class="contentmenubutton">Add New Policy</button>
+			<button type="button" class="contentmenubutton">Update Existing Policy</button>
+			<button type="button" class="contentmenubutton">File a Claim</button>
+			<button type="button" class="contentmenubutton">Update Personal Information</button>
+			
+			<img id="providerad" src="images/provider-adpic.jpg">
+		</div>
+		
+		<!-- enrolled policy information -->
+		<div class="contentblock" id="mainwin">
+			<div class="contentblockhdr">
+				&nbsp;&nbsp;Enrolled Services
+			</div>
+			
+			<!-- healthcare -->
+			<button type="button" class="collapsible">Healthcare
+				<span class="statusmsg msgActive">Active</span>
+			</button>
+			<div class="content">
+				
+				<div class="contentcol1">
+					<p class="contentitem"><b>Plan:</b>&nbsp;&nbsp;&nbsp;Employee First Healthcare HMO</p>
+					<p class="contentitem"><b>Primary:</b>&nbsp;&nbsp;&nbsp;Janet Smith (you)</p>
+					<p class="contentitem"><b>Dependants:</b>&nbsp;&nbsp;&nbsp;Michael Smith (spouse), Jonathan (child)</p>
+					<p class="contentitem"><b>Effective Date:</b>&nbsp;&nbsp;&nbsp;01/01/2023</p>
+					<p class="contentitem"><b>Renewal Date:</b>&nbsp;&nbsp;&nbsp;12/31/2023</p>
+				</div>
+				<div class="contentcol2">
+				  <button type="button" class="contentbutton">Policy Details</button>
+				  <button type="button" class="contentbutton">Status Details</button>
+				</div>
+			</div>
+			
+			<!-- dental -->
+			<button type="button" class="collapsible">Dental
+				<span class="statusmsg msgActive">Active</span>
+			</button>
+			<div class="content">
+				
+				<div class="contentcol1">
+					<p class="contentitem"><b>Plan:</b>&nbsp;&nbsp;&nbsp;Basic Dental</p>
+					<p class="contentitem"><b>Primary:</b>&nbsp;&nbsp;&nbsp;Janet Smith (you)</p>
+					<p class="contentitem"><b>Dependants:</b>&nbsp;&nbsp;&nbsp;Michael Smith (spouse), Jonathan (child)</p>
+					<p class="contentitem"><b>Effective Date:</b>&nbsp;&nbsp;&nbsp;01/01/2023</p>
+					<p class="contentitem"><b>Renewal Date:</b>&nbsp;&nbsp;&nbsp;12/31/2023</p>
+				</div>
+				<div class="contentcol2">
+				  <button type="button" class="contentbutton">Policy Details</button>
+				  <button type="button" class="contentbutton">Status Details</button>
+				</div>
+			</div>
+			
+			<!-- Life Insurance -->
+			<button type="button" class="collapsible">Life Insurance
+				<span class="statusmsg msgPending">Processing</span>
+			</button>
+			<div class="content">
+				
+				<div class="contentcol1">
+					<p class="contentitem"><b>Plan:</b>&nbsp;&nbsp;&nbsp;Premium Life</p>
+					<p class="contentitem"><b>Insured:</b>&nbsp;&nbsp;&nbsp;Janet Smith (you)</p>
+					<p class="contentitem"><b>Benificiaries:</b>&nbsp;&nbsp;&nbsp;Michael Smith (spouse)</p>
+					<p class="contentitem"><b>Effective Date:</b>&nbsp;&nbsp;&nbsp;TBD</p>
+				</div>
+				<div class="contentcol2">
+				  <button type="button" class="contentbutton">Policy Details</button>
+				  <button type="button" class="contentbutton" onclick="window.location.href='myDocs.html';">Status Details</button>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- pending processes -->
+		<div class="contentmenu" id="rightwin">
+			<div class="contentmenuhdr">
+			News & Information
+			</div>
+			
+			<div class="contentarticle">
+				<div class="contentarticletitle">Enhance Your Well-being with Personalized Wellness Programs</div>
+				Discover a personalized approach to wellness with our tailored programs. From nutrition guidance to fitness plans, our comprehensive wellness services empower you to achieve your health goals and lead a balanced lifestyle.
+				<a class="contentarticlelink" href="#">Learn More>></a><hr>
+			</div>
+			
+			<div class="contentarticle">
+				<div class="contentarticletitle">Discover Comprehensive Family Care Under One Roof</div>
+				Simplify your family’s healthcare journey with our comprehensive range of services. From pediatric care to geriatric services, our dedicated team of healthcare providers offers holistic care for every stage of life, ensuring the well-being of your loved ones.
+				<a class="contentarticlelink" href="#">Learn More>></a><hr>
+			</div>
+			
+			<div class="contentarticle">
+				<div class="contentarticletitle">Stay Ahead of Your Health with State-of-the-Art Preventive Care</div>
+				Prioritize your health and prevent future health issues with our advanced preventive care services. From comprehensive screenings to early disease detection, our state-of-the-art technology and expert clinicians empower you to take control of your well-being.
+				<a class="contentarticlelink" href="#">Learn More>></a>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- page footer -->
+	<div id="footerhr">&nbsp;</div>
+	<div id="footer">	
+		<a class="footerlinks" href="#">Contact Us</a>|
+		<a class="footerlinks" href="#">Frequently Asked Questions (FAQs)</a>|
+		<a class="footerlinks" href="#">Find a Provider</a>
+	</div>
+	
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		 this.classList.toggle("active");
+		 var content = this.nextElementSibling;
+		 if (content.style.display === "block") {
+			content.style.display = "none";
+		 } else {
+			content.style.display = "block";
+		 }
+	  });
+	}
+	</script>
+
+	
+<!--
+<link rel='stylesheet' href='https://bots.kore.ai/webclient/UI/dist/kore-ai-sdk.min.css'></link>
+<script src='https://bots.kore.ai/api/platform/websdkjs/49e48ea128854821b362e3355501ab57ba5fe6da81be42b799d533b206985c6dst00'></script>
+<script>KoreSDK.show(KoreSDK.chatConfig);</script>
+-->
+
+</body>
+</html>

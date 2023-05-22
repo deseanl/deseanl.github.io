@@ -1,0 +1,78 @@
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.statusmsg {
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.msgActive { color: #076620; }
+.msgPending { color: #f28007; }
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #0090DA;
+  color: #fff;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	display: block;
+	padding: 10px 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	font-size: 14px;
+	border-radius: 0px 0px 10px 10px;
+}
+.contentcol1 {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+.contentcol2 {
+	display: inline-block;
+	width: 30%;
+	float: right;
+	margin-top: 10px;
+}
+.contentbutton{
+	display: block;
+	float: right;
+	background-color: #0061A0;
+	color: #fff;
+	width: 100%;
+	font-size: 14px;
+	border: none;
+	margin: 3px 0px 0px 0px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+.contentbutton:hover{ 
+	background-color: #A4CE4E; 
+	color: #000;
+}
+
+/*-- Adds +/- icons --*/
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: left;
+  margin-right: 8px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}

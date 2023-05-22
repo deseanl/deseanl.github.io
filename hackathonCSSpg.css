@@ -1,0 +1,88 @@
+#pagewin { width: 80% }
+
+.contentpg1 {
+	min-height: 100px;
+	width: 95%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	font-size: 14px;
+}
+.statusbar {
+	display: inline-block;
+	float: right;
+	width: 500px;
+}
+.contentpg2 {
+	min-height: 100px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.contenttbl {
+	border: 1px solid #A7A8AA;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 14px;
+}
+.contenthead {
+	background-color: #D9D9D6;
+	height: 50px;
+}
+.contentbody {
+	min-height: 100px;
+}
+.tblrow { 
+	min-height: 25px;
+	border-bottom: 5px solid #D9D9D6;
+}
+.tblcol1 {
+	width: 30%;
+	padding: 10px;
+}
+.tblcol2 {
+	width: 10%;
+	text-align: center;
+	padding: 10px;
+}
+.tblcol3 {
+	width: 60%;
+	padding: 10px;
+}
+.upbutton{
+	display: inline-block;
+	background-color: #0061A0;
+	color: #fff;
+	width: 65px;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	margin: 0px 5px 0px 0px;
+	padding: 5px;
+	border-radius: 8px 8px 8px 8px;
+}
+.upbutton:hover{ 
+	background-color: #A4CE4E; 
+	color: #000;
+}
+/*-- doc status colors --*/
+.stat-comp {
+	color: green;
+	margin: 0;
+}
+.stat-rec {
+	color: #f28007;
+	margin: 0;
+}
+.stat-incomp {
+	color: red;
+	margin: 0;
+}
+.msgsubtext {
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 50px;
+	color: #75787B;
+}
