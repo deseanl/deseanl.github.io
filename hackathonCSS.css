@@ -19,6 +19,7 @@ body {
 	padding: 17px 10px 18px 14px;
 	margin: 0;
 	border: none;
+	box-sizing: content-box;
 }
 .headerlogo {
 	display: inline-block;
@@ -61,6 +62,7 @@ body {
 	height: 30px;
 	padding: 10px;
 	background-image: linear-gradient(55deg, #0090DA, #0061A0, #0061A0, #0090DA);
+	box-sizing: content-box;
 }
 nav a {
 	color: #fff;
@@ -90,6 +92,7 @@ nav a {
 	border-radius: 10px 0px 10px 0px;
 	font-size: 12px;
 	font-weight: bold;
+	box-sizing: content-box;
 }
 .contentmenubutton {
 	display: block;
@@ -138,6 +141,7 @@ nav a {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: 10px 0px 10px 0px;
+	box-sizing: content-box;
 }
 .contentitem { font-size: 14px; }
 /*-- News & Info article styling --*/
